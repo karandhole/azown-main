@@ -10,14 +10,15 @@ const port = 5000;
 // Middleware
 app.use(express.json({ limit: "500mb" }));
 app.use(cors());
+const __dirname=path.dirname("");
 
 const buildPath = path.resolve(__dirname, "../client/build");
 
 app.use(express.static(buildPath));
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(buildPath, "index.html"));
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(buildPath, "index.html"));
+// });
 
 // ✅ Available Routes
 app.use("/user", require("./routes/user"));
