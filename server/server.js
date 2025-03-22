@@ -11,8 +11,8 @@ const port = 5000;
 app.use(express.json({ limit: "500mb" }));
 app.use(cors());
 
-// ✅ Correct `__dirname` Usage
-const buildPath = path.join(__dirname, "../client/build");
+const buildPath = path.resolve(__dirname, "../client/build");
+
 app.use(express.static(buildPath));
 
 app.get("*", (req, res) => {
