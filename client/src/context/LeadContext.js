@@ -5,7 +5,7 @@ const LeadState =(props)=>{
     const [userleadsdata, setuserleadsdata] = useState([]);
     const [ownerleaddata, setownerleaddata] = useState([])
     // const host = "https://api.azown.com"
-    const host = "http://localhost:5000"
+    const host ="http://43.204.62.7:5000"
     
     const leadcreate = async (id,type) => {
         const responce = await fetch(`${host}/api/leadprop/leadcreate`, {

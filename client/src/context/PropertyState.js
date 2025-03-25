@@ -4,7 +4,7 @@ import PropertyContext from "./PropertyContext";
 
 const PropertyState = (props) => {
   // const host = "https://api.azown.com/api"
-  const host = "http://localhost:5000"
+  const host = "http://43.204.62.7:5000"
   
  
   const [showLoader,setShowLoader] = useState(false);

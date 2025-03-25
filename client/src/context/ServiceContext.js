@@ -5,7 +5,7 @@ import { successMsg } from "../Components/notification";
 const ServiceContext = createContext();
 
 const ServiceState = (props) => {
-  const host = "http://localhost:5000"
+  const host = "http://43.204.62.7:5000"
   // const host = "https://api.azown.com/api";
 
   const [agentService, setAgentService] = useState([]);

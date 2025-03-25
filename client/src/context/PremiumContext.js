@@ -5,7 +5,7 @@ const PremiumContext = createContext();
 
 const PremiumTempData = (props) => {
   // const host = "https://api.azown.com"
-  const host = "http://localhost:5000"
+  const host = "http://43.204.62.7:5000"
 const [propTempData,setPropTempData] = useState(null)
  
   const [propPremiumExp,setPropPremiumExp] = useState(false)

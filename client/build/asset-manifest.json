@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af370741.css",
+    "main.js": "/static/js/main.0bd037ca.js",
+    "static/media/p-1.png": "/static/media/p-1.9674244900196544ab74.png",
+    "static/media/4.png": "/static/media/4.3a32257cb8fe271193b2.png",
+    "static/media/home1.jpeg": "/static/media/home1.011ca301789e2fdb0ce0.jpeg",
+    "static/media/user.jpeg": "/static/media/user.7726c531c289fbfbff93.jpeg",
+    "static/media/main-fonts.svg?v=20": "/static/media/main-fonts.404be73e1ad40b1da282.svg",
+    "static/media/image3.jpeg": "/static/media/image3.80224f45636ee2cb7ce1.jpeg",
+    "static/media/image2.jpeg": "/static/media/image2.6119f1331bca7b1ff2d4.jpeg",
+    "static/media/image4.jpeg": "/static/media/image4.6c6a2eeba287de8d453a.jpeg",
+    "static/media/image1.jpeg": "/static/media/image1.1cc96d254328ee74a578.jpeg",
+    "static/media/four.png": "/static/media/four.1bdc95a9bbc3011b9e1b.png",
+    "static/media/one.png": "/static/media/one.96340ac83c5ac963a23a.png",
+    "static/media/main-fonts.eot?v=20": "/static/media/main-fonts.b8dc46886b7e216a02be.eot",
+    "static/media/main-fonts.ttf?v=20": "/static/media/main-fonts.4d0a76596dbbbfbfe5ee.ttf",
+    "static/media/main-fonts.woff?v=20": "/static/media/main-fonts.dbf9ed7d53cfa8f73da7.woff",
+    "index.html": "/index.html",
+    "main.af370741.css.map": "/static/css/main.af370741.css.map",
+    "main.0bd037ca.js.map": "/static/js/main.0bd037ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af370741.css",
+    "static/js/main.0bd037ca.js"
+  ]
+}

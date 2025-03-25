@@ -6,7 +6,7 @@ import { successMsg } from "../Components/notification";
 const UserContext = createContext();
 
 const UserState = (props) => {
-  const host = "http://localhost:5000"
+  const host = "http://43.204.62.7:5000"
   // const host = "https://api.azown.com/api";
   const [userData , setUserData] = useState({})
   const [showLoader,setShowLoader] = useState(false)
