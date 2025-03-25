@@ -1,7 +1,7 @@
 const express = require("express");
 const connectToMongo = require("./db/connect");
 const cors = require("cors");
-const path = require("path");
+
 
 connectToMongo();
 const app = express();
@@ -11,9 +11,7 @@ const port = 5000;
 app.use(express.json({ limit: "500mb" }));
 app.use(cors());
 
-// Fixing __dirname properly
-const buildPath = path.join(__dirname, "../client/build");
-app.use(express.static(buildPath));
+
 
 // Available Routes
 app.use("/user", require("./routes/user"));
@@ -24,10 +22,6 @@ app.use("/leadprop", require("./routes/leadprop"));
 app.use("/handler", require("./routes/handler"));
 app.use("/likes", require("./routes/likeprop"));
 
-// Serve frontend for all other routes
-app.get("*", (req, res) => {
-  res.sendFile(path.join(buildPath, "index.html"));
-});
 
 // Start the Server
 app.listen(port, () => {
