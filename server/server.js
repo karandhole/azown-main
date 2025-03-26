@@ -12,7 +12,7 @@ app.use(express.json({ limit: "500mb" }));
 // app.use(cors());
 
 app.use(cors({
-  origin: ["https://azown.com", "http://localhost:3000"],
+  origin: "*",  // Allow all origins for testing (update later for security)
   methods: "GET,POST,PUT,DELETE",
   credentials: true
 }));

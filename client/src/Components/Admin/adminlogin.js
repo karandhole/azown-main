@@ -12,7 +12,7 @@ const AdminLogin = ({isAdminLogin}) => {
     console.log(userDetail);
   const handleSubmit = async (e) =>{
     e.preventDefault();
-    const res = await fetch('http://43.204.62.7:5000/api/admin/admin-login' , {
+    const res = await fetch('https://43.204.62.7:5000/api/admin/admin-login' , {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
