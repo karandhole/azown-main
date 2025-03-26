@@ -9,7 +9,13 @@ const port = 5000;
 
 // Middleware
 app.use(express.json({ limit: "500mb" }));
-app.use(cors());
+// app.use(cors());
+
+app.use(cors({
+  origin: ["https://azown.com", "http://localhost:3000"],
+  methods: "GET,POST,PUT,DELETE",
+  credentials: true
+}));
 
 
 
