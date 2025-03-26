@@ -9,13 +9,9 @@ const port = 5000;
 
 // Middleware
 app.use(express.json({ limit: "500mb" }));
-// app.use(cors());
+app.use(cors());
 
-app.use(cors({
-  origin: "*",  // Allow all origins for testing (update later for security)
-  methods: "GET,POST,PUT,DELETE",
-  credentials: true
-}));
+
 
 
 
